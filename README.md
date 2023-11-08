@@ -22,22 +22,21 @@ OrthNet
 
 # General workflow & directories for scripts and files
 
-**Orthogroup directory** -
-  scripts, inputs, and outputs (orthogroups) from running orthology inference algorithms
+**Orthogroup directory** 
+  - scripts, inputs, and outputs (orthogroups) from running orthology inference algorithms
 
-**Summary_Statistics directory** - 
-  scripts and summary results describing orthogroup results
+**Summary_Statistics directory**
+  - scripts and summary results describing orthogroup results
 
-**Gene_Composition_Comparison_Orthogroups directory** - 
-  scripts and results for comparing the gene compositon across orthogroups from different orthology inference algorithms
-   files for conservative and inclusive orthogroups using Arabidopsis genes
+**Gene_Composition_Comparison_Orthogroups directory**
+  - scripts and results for comparing the gene compositon across orthogroups from different orthology inference algorithms
+  - files for conservative and inclusive orthogroups of Arabidopsis genes after comparison acroos algorithms
 
-**Gene_Composition_Comparison_Species_Paires directory** - 
-  scripts and results for comparing the gene compositon across orthogroups from different orthology inference algorithms
-   files for conservative and inclusive orthogroups using Arabidopsis genes
+**Gene_Composition_Comparison_Species_Pairs directory** 
+  - scripts and results for comparing the gene compositon across orthogroups from different orthology inference algorithms
 
-**YABBY_Case_Study directory** - 
-  scripts and results for comparing YABBY orthogroups across different orthology inference algorithms
+**YABBY_Case_Study directory** 
+  - scripts and results for comparing YABBY orthogroups across different orthology inference algorithms
   
 
 
