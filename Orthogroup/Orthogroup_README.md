@@ -125,9 +125,6 @@ To make sure all the input files and the gene ID names are the same across all 4
 - filename extensions: *.fa
 - scripts: 
 	- orthofinder_all.sh
-	- orthofinder_blast.sh
-	- orthofinder_diamond.sh
-	- orthofinder_mmseqs.sh
 - Note: create separate directories for each group of proteomes and for each type of analyses
 
 ## SonicParanoid 
