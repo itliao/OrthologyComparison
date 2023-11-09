@@ -262,6 +262,7 @@ To make sure all the input files and the gene ID names are the same across all 4
   	- files in 230927/ONfinder
 	
 2) Markov clustering (mcl) of hard clusters
+  - NOTE: changed the inflation parameter from 1.2 (default) to 1.5 to match OrthoFinder and SonicParanoid
   - script:
   	- ONfinder_2.sh
   - input:
