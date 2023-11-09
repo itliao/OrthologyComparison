@@ -329,23 +329,23 @@ for OrthNet
 - full - refers to the "higher ploidy set" of species
 
 - OF_b - OrthoFinder-BLAST
-  - dip_OF_b-N0.tsv
-  - full_OFb-N0.tsv
+  - [dip_OF_b_N0.tsv](Orthogroup_Outputs/dip_OF_b_N0.tsv)
+  - [full_OFb_N0.tsv](Orthogroup_Outputs/full_OFb_N0.tsv)
 - OF_d - OrthoFinder-DIAMOND
-  - dip_OF_d-N0.tsv
-  - full_OFd-N0.tsv
+  - [dip_OF_d_N0.tsv](Orthogroup_Outputs/dip_OF_d_N0.tsv)
+  - [full_OFd_N0.tsv](Orthogroup_Outputs/full_OFd_N0.tsv)
 - OF_m - OrthoFinder-MMseqs2
-  - dip_OF_m-N0.tsv
-  - full_OFm-N0.tsv
+  - [dip_OF_m_N0.tsv](Orthogroup_Outputs/dip_OF_m_N0.tsv)
+  - [full_OFm_N0.tsv](Orthogroup_Outputs/full_OFm_N0.tsv)
 - SP_d - SonicParanoid-DIAMOND
-  - dip_SP_d-flat.ortholog_groups.tsv
-  - full_SPd-flat.ortholog_groups.tsv
+  - [dip_SP_d-flat.ortholog_groups.tsv](Orthogroup_Outputs/dip_SP_d-flat.ortholog_groups.tsv)
+  - [full_SPd_flat.ortholog_groups.tsv](Orthogroup_Outputs/full_SPd_flat.ortholog_groups.tsv)
 - SP_m - SonicParanoid-MMseqs2
-  - dip_SP_m-flat.ortholog_groups.tsv
-  - full_SPm-flat.ortholog_groups.tsv
+  - [dip_SP_m-flat.ortholog_groups.tsv](Orthogroup_Outputs/dip_SP_m-flat.ortholog_groups.tsv)
+  - [full_SPm-flat.ortholog_groups.tsv](Orthogroup_Outputs/full_SPm-flat.ortholog_groups.tsv)
 - BR - Broccoli
-  - dip_BR-table_OGs_protein_names.txt
-  - full_BR-table_OGs_protein_names.txt
+  - [dip_BR-table_OGs_protein_names.txt](Orthogroup_Outputs/dip_BR-table_OGs_protein_names.txt)
+  - [full_BR-table_OGs_protein_names.txt](Orthogroup_Outputs/full_BR-table_OGs_protein_names.txt)
 - ON - OrthNet
-  - OrthNet_groups_diploid_230915.txt
-  - OrthNet_groups_full_230915.txt
+  - [OrthNet_groups_diploid_230927.txt](Orthogroup_Outputs/OrthNet_groups_diploid_230927.txt)
+  - [OrthNet_groups_full_230915.txt](Orthogroup_Outputs/OrthNet_groups_full_230915.txt)
