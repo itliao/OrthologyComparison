@@ -74,7 +74,7 @@ To make sure all the input files and the gene ID names are the same across all 4
 **STEP 5: convert IDs so that they are exactly the same (primarily for OrthNet)**
 - if gtf and FASTA files have completely different gene and protein IDs
 - species: Thlaspi arvense
-- script: Convert_Tarvense_v2_files_221214.ipynb
+- script: Convert_Tarvense_v2_files.py
 - inputs:
   - protein.faa
   - genomic.gff
