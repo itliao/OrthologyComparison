@@ -12,7 +12,7 @@
 	
 * output
 	* for diploid set:
-		* diploid_pairwiseMetrics_231003.csv
+		* diploid_pairwiseMetrics_231003.csv - **found in DRYAD**
 			* to use to plot and summarize similarity indices
 		* diploid_geneClusterTable_230928.csv 
 			* includes ON
@@ -23,12 +23,12 @@
 		* inclusiveOG_diploidSet_230929.csv
 			* does not include ON
 			* gene is included in orthogroup if it is found in at least one of the orthogroups from  different orthology inference programs
-		* geneOutput_230929.zip
+		* geneOutput_230929.zip - **found in DRYAD**
 			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230929.zip
 			* does not include ON
 		
 	* for higher ploidy set:
-		* full_pairwiseMetrics_231004.csv
+		* full_pairwiseMetrics_231004.csv - **found in DRYAD**
 			* to use to plot and summarize similarity indices
 		* full_geneClusterTable_230928.csv 
 			* includes ON
@@ -39,6 +39,6 @@
 		* inclusiveOG_fullSet_230928.csv 
 			* does not include ON
 			* gene is included in orthogroup if it is found in at least one of the orthogroups from  different orthology inference programs
-		* geneOutput_230928.zip
+		* geneOutput_230928.zip  - **found in DRYAD**
 			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230928.zip
 			* does not include ON
