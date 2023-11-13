@@ -9,7 +9,7 @@
 	* orthogroups from diploid set and higher ploidy set
 	  * [see Orthogroup_README.md](https://github.com/itliao/OrthologyComparison/blob/main/Orthogroup/Orthogroup_README.md#output-files---to-use-for-inputs-for-downstream-analyses)
 	
-* [raw output tables](raw_output_tables/): 
+* [raw output tables](/raw_output_tables/): 
 	* OF_b - dip_OF_blast_orthoCat_230927.csv, full_OF_blast_orthoCat_230213.csv
 	* OF_d - dip_OF_diamond_orthoCat_230927.csv, full_OF_diamond_orthoCat_230213.csv
 	* OF_m - dip_OF_mmseqs_orthoCat_230927.csv, full_OF_mmseqs_orthoCat_230213.csv
