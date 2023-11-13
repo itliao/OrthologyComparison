@@ -5,7 +5,7 @@
 	
 * inputs:
 	* baseline - OrthoFinder-BLAST-MCL on every single species pair possible
-	  * link to directory (zip file)
+	  * [link to zip file](Gene_Composition_Comparison_Species_Pairs/baseline_files/baseline_pairwise.zip)
 	* orthogroups from diploid set and higher ploidy set
 	  * [see Orthogroup_README.md](https://github.com/itliao/OrthologyComparison/blob/main/Orthogroup/Orthogroup_README.md#output-files---to-use-for-inputs-for-downstream-analyses)
 	
