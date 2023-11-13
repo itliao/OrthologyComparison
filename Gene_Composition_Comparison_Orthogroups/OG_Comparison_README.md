@@ -11,8 +11,7 @@
 	* at_features.tsv
 	
 * output
-	* [for diploid set](/Gene_Composition_Comparison_Orthogroups
-/diploid_output):
+	* [for diploid set](/Gene_Composition_Comparison_Orthogroups/diploid_output):
 		* diploid_pairwiseMetrics_231003.csv - **found in DRYAD**
 			* to use to plot and summarize similarity indices
 		* diploid_geneClusterTable_230928.csv 
