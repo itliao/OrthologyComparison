@@ -317,7 +317,7 @@ print("Reading in files")
 broccoli = main_path + "/full_BR-table_OGs_protein_names.txt"
 orthofinder_b = main_path + "/full_OFb_N0.tsv"
 orthofinder_d = main_path + "/full_OFd_N0.tsv"
-orthofinder_m = main_path + "/ull_OFm_N0.tsv"
+orthofinder_m = main_path + "/full_OFm_N0.tsv"
 orthnet = main_path + "/OrthNet_groups_full_230915.txt"
 sonicparanoid_d = main_path + "/full_SPd_flat.ortholog_groups.tsv"
 sonicparanoid_m = main_path + "/full_SPm-flat.ortholog_groups.tsv"
