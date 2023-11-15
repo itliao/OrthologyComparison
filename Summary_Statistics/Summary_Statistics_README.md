@@ -13,8 +13,8 @@
 	* algorithm + "_binary.tsv"
 	* algorithm + "_tenMax.tsv"
 		* where "algorithm" stands for orthofinder, sonicparanoid, broccoli, or orthnet and each variation on those algorithms
-	* [diploid_set](/diploidBrass.zip)
-	* [higher ploidy set](/fullBrass.zip)
+	* [diploid_set](/Summary_Statistics/diploidBrass.zip)
+	* [higher ploidy set](/Summary_Statistics/fullBrass.zip)
 
 ## STEP 2: Make plots - histogram, stacked bar, heatmap, and Upset bar plot
 
@@ -31,12 +31,12 @@
 	* algorithm + "_binary.tsv"
 	* algorithm + "_tenMax.tsv"
 		* where "algorithm" stands for orthofinder, sonicparanoid, broccoli, or orthnet and each variation on those algorithms
-	* [diploid_set](/diploidBrass.zip)
-	* [higher ploidy set](/fullBrass.zip)
+	* [diploid_set](/Summary_Statistics/diploidBrass.zip)
+	* [higher ploidy set](/Summary_Statistics/fullBrass.zip)
 	
 * plot output
-	* [diploid_set](/diploidBrass_Plots.zip)
-	* [higher ploidy set](/fullBrass_Plots.zip)
+	* [diploid_set](/Summary_Statistics/diploidBrass_Plots.zip)
+	* [higher ploidy set](/Summary_Statistics/fullBrass_Plots.zip)
 	* plot types 
 		* Distribution of the number of species per OG
 		* Distribution of the number of OG with specific species composition (upset)
@@ -66,8 +66,8 @@
 		* algorithm + "_binary.tsv"
 		* algorithm + "_tenMax.tsv"
 			* where "algorithm" stands for orthofinder, sonicparanoid, broccoli, or orthnet and each variation on those algorithms
-		* [diploid_set](/diploidBrass.zip)
-		* [higher ploidy set](/fullBrass.zip)
+		* [diploid_set](/Summary_Statistics/diploidBrass.zip)
+		* [higher ploidy set](/Summary_Statistics/fullBrass.zip)
 	* [combinedOrthologCount_reformat_230928.csv](/Gene_Composition_Comparison_Species_Pairs/combinedOrthologCount_reformat_230928.csv)
 	
 	* diploid_pairwiseMetrics_231003.csv **found in DRYAD**
@@ -76,7 +76,7 @@
 	* [mixed_speciesPairsJI_230929.csv](/Gene_Composition_Comparison_Species_Pairs/mixed_speciesPairsJI_230929.csv)
 	
 * outputs:
-	* [diploid_set](/diploid_outputs)
+	* [diploid_set](/Summary_Statistics/diploid_outputs)
 		* diploid_numSpPerOG_230928.pdf (Fig. 2)
 		* diploid_numSpPerOG_sumstats_230928.csv (Table S1)
 		* diploid_numSpPerOG_violin_230928.pdf (Fig. S2)
@@ -92,7 +92,7 @@
 		* heatmap_SpeciesPairs_Diploid_231003.pdf (Fig. S8)
 		
 		
-	* [higher_ploidy_set](/higher_ploidy_outputs)
+	* [higher_ploidy_set](/Summary_Statistics/higher_ploidy_outputs)
 		* full_numSpPerOG_230928.pdf (Fig. 2)
 		* full_numSpPerOG_sumstats_230928.csv (Table S1)
 		* full_numSpPerOG_violin_230928.pdf (Fig. S2)
