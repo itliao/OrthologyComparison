@@ -30,7 +30,7 @@ OrthNet
 
 **Gene_Composition_Comparison_Orthogroups directory**
   - scripts and results for comparing the gene compositon across orthogroups from different orthology inference algorithms
-  - files for conservative and inclusive orthogroups of Arabidopsis genes after comparison acroos algorithms
+  - files for conservative and inclusive orthogroups of Arabidopsis genes after comparison across algorithms
 
 **Gene_Composition_Comparison_Species_Pairs directory** 
   - scripts and results for comparing the gene compositon across orthogroups from different orthology inference algorithms
