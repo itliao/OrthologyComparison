@@ -27,7 +27,7 @@
 			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230929.zip
 			* does not include ON
 		
-	* [for higher ploidy set](/Gene_Composition_Comparison_Orthogroups/higher_ploidy_output):
+	* [for higher ploidy set](/higher_ploidy_output):
 		* full_pairwiseMetrics_231004.csv - **found in DRYAD**
 			* to use to plot and summarize similarity indices
 		* full_geneClusterTable_230928.csv 
