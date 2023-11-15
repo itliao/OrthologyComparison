@@ -1,0 +1,44 @@
+RStudioGD 
+        2 
+RStudioGD 
+        2 
+RStudioGD 
+        2 
+RStudioGD 
+        2 
+RStudioGD 
+        2 
+RStudioGD 
+        2 
+e comparisons using Wilcoxon rank sum test with continuity correction 
+
+data:  merged5$numPerOG and merged5$program 
+
+           BR      OF_blast OF_diamond OF_mmseqs ON      SP_diamond
+OF_blast   0.63801 -        -          -         -       -         
+OF_diamond 4.1e-09 8.7e-10  -          -         -       -         
+OF_mmseqs  0.44325 0.25911  8.4e-07    -         -       -         
+ON         < 2e-16 < 2e-16  < 2e-16    < 2e-16   -       -         
+SP_diamond < 2e-16 < 2e-16  0.00021    < 2e-16   < 2e-16 -         
+SP_mmseqs  < 2e-16 < 2e-16  0.00654    8.4e-15   < 2e-16 0.35144   
+
+P value adjustment method: fdr 
+
+	Kruskal-Wallis rank sum test
+
+data:  numPerOG by program
+Kruskal-Wallis chi-squared = 206.51, df = 5, p-value < 2.2e-16
+
+
+	Pairwise comparisons using Wilcoxon rank sum test with continuity correction 
+
+data:  merged5_noON$numPerOG and merged5_noON$program 
+
+           BR      OF_blast OF_diamond OF_mmseqs SP_diamond
+OF_blast   0.63801 -        -          -         -         
+OF_diamond 5.1e-09 1.2e-09  -          -         -         
+OF_mmseqs  0.45230 0.27762  1.0e-06    -         -         
+SP_diamond < 2e-16 < 2e-16  0.00024    < 2e-16   -         
+SP_mmseqs  < 2e-16 < 2e-16  0.00722    1.2e-14   0.36689   
+
+P value adjustment method: fdr 

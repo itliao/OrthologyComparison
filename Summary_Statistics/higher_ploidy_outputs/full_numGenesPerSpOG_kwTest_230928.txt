@@ -1,0 +1,48 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  Aar by program
+Kruskal-Wallis chi-squared = 2920.4, df = 6, p-value < 2.2e-16
+
+
+	Kruskal-Wallis rank sum test
+
+data:  Ath by program
+Kruskal-Wallis chi-squared = 2441.9, df = 6, p-value < 2.2e-16
+
+
+	Kruskal-Wallis rank sum test
+
+data:  Bra by program
+Kruskal-Wallis chi-squared = 2588.6, df = 6, p-value < 2.2e-16
+
+
+	Kruskal-Wallis rank sum test
+
+data:  Chi by program
+Kruskal-Wallis chi-squared = 3436.6, df = 6, p-value < 2.2e-16
+
+
+	Kruskal-Wallis rank sum test
+
+data:  Cru by program
+Kruskal-Wallis chi-squared = 2067.7, df = 6, p-value < 2.2e-16
+
+
+	Kruskal-Wallis rank sum test
+
+data:  Csa by program
+Kruskal-Wallis chi-squared = 7740.6, df = 6, p-value < 2.2e-16
+
+
+	Kruskal-Wallis rank sum test
+
+data:  Sal by program
+Kruskal-Wallis chi-squared = 2623.6, df = 6, p-value < 2.2e-16
+
+
+	Kruskal-Wallis rank sum test
+
+data:  Tar by program
+Kruskal-Wallis chi-squared = 2935.6, df = 6, p-value < 2.2e-16
+
