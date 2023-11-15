@@ -1,0 +1,106 @@
+sed modifications of gene names in gtf files so that the protein fasta and the parsed gtf files have the same gene/transcript names
+
+~~~~~~~~~~~~~~~~~~~~~
+Aar - aethionema
+
+** Use sed to convert the names in  parsed gtf **
+
+gtf: Aa31LG1G10-mRNA-1 
+pep: Aa31LG1G10
+
+Test:
+echo "Aa31LG1G10-mRNA-1" | sed -E 's/([a-zA-Z0-9]+)\-([a-zA-Z]{4})\-([0-9]+)/print \1/'
+
+commands:
+cp Aar.gtfParsed.txt Aar.gtfParsed.mod.txt
+sed -E -i 's/([a-zA-Z0-9]+)\-([a-zA-Z]{4})\-([0-9]+)/\1/' Aar.gtfParsed.mod.txt
+
+~~~~~~~~~~~~~~~~~~~~~
+Ath - arabidopsis
+
+** Use sed to convert the names in parsed gtf **
+
+gtf: AT1G01010.1.Araport11.447
+pep: AT1G01010.1
+
+Test:
+echo "AT1G01010.1.Araport11.447" | sed -E 's/([a-zA-Z0-9]+\.[0-9]{1})\.([a-zA-Z0-9]{9}\.[0-9]{3})/print \1/'
+print AT1G01010.1
+
+commands:
+cp Ath.gtfParsed.txt Ath.gtfParsed.mod.txt
+sed -E -i 's/([a-zA-Z0-9]+\.[0-9]+)\.([a-zA-Z0-9]{9}\.[0-9]{3})/\1/' Ath.gtfParsed.mod.txt
+
+~~~~~~~~~~~~~~~~~~~~~
+Bra - brassica
+** Use sed to convert the names in parsed gtf **
+
+gtf: Brara.A00001.1.v1.3
+pep: Brara.A00001.1.p
+
+Test:
+echo "Brara.A00001.1.v1.3" | sed -E 's/([a-zA-Z]+)\.([a-zA-Z0-9]{6})\.([0-9])\.([<v][0-9])\.([0-9])/print \1\.\2\.\3\.\p/'
+print Brara.A00001.1.p
+
+commands:
+cp Bra.gtfParsed.txt Bra.gtfParsed.mod.txt
+sed -E -i 's/([a-zA-Z]+)\.([a-zA-Z0-9]{6})\.([0-9])\.([<v][0-9])\.([0-9])/\1\.\2\.\3\.\p/' Bra.gtfParsed.mod.txt
+
+~~~~~~~~~~~~~~~~~~~~~
+Chi - cardamine
+
+** write script to get just the primary transcripts in protein fasta **
+** make a new file called Chi.gtfParsed.mod.txt **
+
+gtf: CARHR000010.1
+pep: CARHR000010.1
+
+commands:
+cp Chi.gtfParsed.txt Chi.gtfParsed.mod.txt
+
+~~~~~~~~~~~~~~~~~~~~~
+Cru - capsella 
+
+** Use sed to convert the names in parsed gtf **
+
+gtf: Carub.0001s0009.1.v1.1
+pep: Carub.0001s0009.1.p
+
+Test:
+echo "Carub.0001s0009.1.v1.1" | sed -E 's/([a-zA-Z]+)\.([a-zA-Z0-9]+)\.([0-9])\.([<v][0-9])\.([0-9])/print \1\.\2\.\3\.\p/'
+print Carub.0001s0009.1.p
+
+commands:
+cp Cru.gtfParsed.txt Cru.gtfParsed.mod.txt
+sed -E -i 's/([a-zA-Z]+)\.([a-zA-Z0-9]+)\.([0-9])\.([<v][0-9])\.([0-9])/\1\.\2\.\3\.\p/' Cru.gtfParsed.mod.txt
+
+~~~~~~~~~~~~~~~~~~~~~	
+Csa - camelina
+
+** write script to get just the primary transcripts in protein fasta **
+** Use sed to convert the names in parsed gtf ** 
+** Use sed to convert the names in protein fasta after extracting primary transcripts **
+
+gtf: transcript:Csa01g001000.1
+pep: Csa01g001000.1
+
+Test:
+echo "transcript:Csa01g001000.1" | sed -E 's/([a-zA-Z]+)\:([a-zA-Z0-9]+)\.([0-9])/print \2\.\3/'
+print Csa01g001000.1
+
+commands:
+cp Csa.gtfParsed.txt Csa.gtfParsed.mod.txt
+sed -E -i 's/([a-zA-Z]+)\:([a-zA-Z0-9]+)\.([0-9])/\2\.\3/' Csa.gtfParsed.mod.txt
+
+pep: Csa09g068050.1.cds1
+gtf.mod: Csa09g068050.1
+
+Test:
+echo "Csa09g068050.1.cds1" | sed -E 's/([a-zA-Z0-9]+)\.([0-9])\.([a-zA-Z0-9]+)/print \1\.\2/'
+print Csa09g068050.1
+
+commands:
+cp Csativa.primary.pep.fa Csativa.primary.pep.mod.fa
+sed -E -i 's/([a-zA-Z0-9]+)\.([0-9])\.([a-zA-Z0-9]+)/\1\.\2/' Csativa.primary.pep.mod.fa
+
+~~~~~~~~~~~~~~~~~~~~~
