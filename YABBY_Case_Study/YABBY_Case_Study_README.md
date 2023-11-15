@@ -27,7 +27,7 @@ MAFFT: https://www.ebi.ac.uk/Tools/msa/mafft/
 * input
 	* files above
 
-* output (.aln files)
+* [output (.aln files)](/YABBY_Case_Study/alignments)
 	* ALL_YABBY_231017.aln
 	* AT1G08465.1.aln
 	* AT1G23420.2.aln
