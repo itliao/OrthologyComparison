@@ -70,8 +70,8 @@
 		* [higher ploidy set](/Summary_Statistics/fullBrass.zip)
 	* [combinedOrthologCount_reformat_230928.csv](/Gene_Composition_Comparison_Species_Pairs/combinedOrthologCount_reformat_230928.csv)
 	
-	* diploid_pairwiseMetrics_231003.csv **found in DRYAD**
-	* full_pairwiseMetrics_231004.csv **found in DRYAD**
+	* diploid_pairwiseMetrics_231003.csv - **found in DRYAD**
+	* full_pairwiseMetrics_231004.csv - **found in DRYAD**
 	* [diploid_speciesPairsJI_230929.csv](/Gene_Composition_Comparison_Species_Pairs/diploid_speciesPairsJI_230929.csv)
 	* [mixed_speciesPairsJI_230929.csv](/Gene_Composition_Comparison_Species_Pairs/mixed_speciesPairsJI_230929.csv)
 	
