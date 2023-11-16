@@ -13,6 +13,7 @@
 * output
 	* [for diploid set](/Gene_Composition_Comparison_Orthogroups/diploid_output):
 		* diploid_pairwiseMetrics_231003.csv - **found in DRYAD**
+  			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
 			* to use to plot and summarize similarity indices
 		* diploid_geneClusterTable_230928.csv 
 			* includes ON
@@ -24,12 +25,14 @@
 			* does not include ON
 			* gene is included in orthogroup if it is found in at least one of the orthogroups from  different orthology inference programs
 		* geneOutput_230929.zip - **found in DRYAD**
-			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230929.zip
+			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
+   			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230929.zip
 			* does not include ON
 		
 	* [for higher ploidy set](/Gene_Composition_Comparison_Orthogroups/higher_ploidy_output):
 		* full_pairwiseMetrics_231004.csv - **found in DRYAD**
-			* to use to plot and summarize similarity indices
+			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
+    			* to use to plot and summarize similarity indices
 		* full_geneClusterTable_230928.csv 
 			* includes ON
 			* all orthogroups with Arabidopsis gene concatenated together
@@ -40,5 +43,6 @@
 			* does not include ON
 			* gene is included in orthogroup if it is found in at least one of the orthogroups from  different orthology inference programs
 		* geneOutput_230928.zip  - **found in DRYAD**
-			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230928.zip
+			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
+    			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230928.zip
 			* does not include ON
