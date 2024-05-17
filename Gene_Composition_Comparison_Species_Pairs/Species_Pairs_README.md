@@ -28,9 +28,25 @@
 # pairwise gene comparison between algorithms - for species pairs
 
 * script: 	
-	* CompareOrthogroupComposition_SpeciesPairs_dip_FINAL.py
-	* CompareOrthogroupComposition_SpeciesPairs_mix_FINAL.py
+	* CompareOrthogroupComposition_SpeciesPairs_dip_240222.py
+	* CompareOrthogroupComposition_SpeciesPairs_mix_240226.py
 	
 * output:
-	* diploid_speciesPairsJI_230929.csv
-	* mixed_speciesPairsJI_230929.csv
+	* files have some duplicate orthogroup comparison metrics, so they will need to be corrected (removed/averaged out) 
+		* diploid_speciesPairsJIvalues_toCorrect_240222.csv
+		* mixed_speciesPairsJIvalues_toCorrect_240226.csv
+ 
+* script for correcting overcounting of comparisons:
+	* Correcting_Pairwise_Metrics_dipSpeciesPairs_240223.ipynb 
+	* Correcting_Pairwise_Metrics_mixSpeciesPairs_240225.ipynb
+* input:
+	* diploid_speciesPairsJIvalues_toCorrect_240222.csv
+	* mixed_speciesPairsJIvalues_toCorrect_240226.csv
+* output:
+	* summary_diploidPairs_240223.csv 
+	* spPairs_diploid_newMetrics_noDup_240223.csv
+	* spPairs_diploid_JIsummary_240223.csv 
+	
+  	* summary_mixedPairs_240227.csv 
+	* spPairs_mixed_newMetrics_noDup_240227.csv 
+	* spPairs_mixed_JIsummary_240227.csv  	
