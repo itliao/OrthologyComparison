@@ -1,0 +1,37 @@
+programPair,All,oneAT,diffAT,Total,PropOne,oriATgenes_same,combAvg_same,oriATgenes_diff,combAvg_diff,newTotalOG,oriTotal
+"('BR', 'OFb')",26499,15743,10512,26255,0.59961912,2436,1037,8081,2691,19471,10517
+"('BR', 'OFd')",26499,15982,10174,26156,0.611026151,2466,1040,7712,2549,19571,10178
+"('BR', 'OFm')",26499,15897,10337,26234,0.605969353,2425,1034,7917,2599,19530,10342
+"('BR', 'SPd')",26499,17129,8515,25644,0.667953517,1767,773,6752,2346,20248,8519
+"('BR', 'SPm')",26499,17224,8422,25646,0.671605708,1754,769,6675,2310,20303,8429
+"('BR', 'ON')",26499,13710,12727,26437,0.518591368,2507,1116,10224,3266,18092,12731
+"('OFb', 'OFd')",26499,16782,9268,26050,0.644222649,5768,2354,3500,1072,20208,9268
+"('OFb', 'OFm')",26499,16939,9070,26009,0.651274559,6387,2560,2683,774,20273,9070
+"('OFb', 'SPd')",26499,16551,9460,26011,0.636307716,2156,950,7304,2592,20093,9460
+"('OFb', 'SPm')",26499,16627,9390,26017,0.639082139,2169,949,7221,2555,20131,9390
+"('OFb', 'ON')",26499,13489,12980,26469,0.509615021,3701,1609,9279,2928,18026,12980
+"('OFd', 'OFm')",26499,17075,8894,25969,0.657514729,6258,2502,2636,795,20372,8894
+"('OFd', 'SPd')",26499,16780,9105,25885,0.648251883,2240,980,6865,2465,20225,9105
+"('OFd', 'SPm')",26499,16830,9087,25917,0.649380715,2228,973,6859,2470,20273,9087
+"('OFd', 'ON')",26499,13573,12873,26446,0.513234516,3532,1534,9341,3015,18122,12873
+"('OFm', 'SPd')",26499,16677,9332,26009,0.641201123,2182,957,7150,2535,20169,9332
+"('OFm', 'SPm')",26499,16766,9236,26002,0.644796554,2189,957,7047,2483,20206,9236
+"('OFm', 'ON')",26499,13572,12878,26450,0.513119093,3599,1572,9279,2920,18064,12878
+"('SPd', 'SPm')",26499,19215,5229,24444,0.786082474,3687,1507,1542,475,21197,5229
+"('SPd', 'ON')",26499,13952,12457,26409,0.528304745,1808,806,10649,3763,18521,12457
+"('SPm', 'ON')",26499,14027,12378,26405,0.531225147,1757,792,10621,3708,18527,12378
+,,,,,,,,,,,
+,,,,,,,,,,,
+Key: ,,,,,,,,,,,
+programPair,algorithm outputs being compared,,,,,,,,,,
+All,number of total Arabidopsis genes to examine,,,,,,,,,,
+oneAT,number of genes with only one and the same Arabidopsis gene copy in each algorithm's orthogroup output,,,,,,,,,,
+diffAT,number of genes with different numbers of Arabidopsis genes in each algorithm's orthogroup output,,,,,,,,,,
+Total,total number of genes actually compared between the two algorithms,,,,,,,,,,
+PropOne,proportion of genes/orthogroup with one Arabidopsis gene copy between the two orthogroups,,,,,,,,,,
+oriATgenes_same,"number of genes where there are multiple copies of Arabidopsis genes in an algorithm's orthogroup output, and the Arabidopsis gene composition between the two algorithms are exactly the same",,,,,,,,,,
+combAvg_same,number of actual orthogroups to compare after removing the duplicate orthogroup comparisons for scenarios with more than one Arabidopsis gene copy between the two algorithms and the Arabidopsis gene composition between the two algorithms are exactly the same,,,,,,,,,,
+oriATgenes_diff,number of genes where the number of Arabidopsis genes in an orthogroup  are different between the two algorithms,,,,,,,,,,
+combAvg_diff,number of actual orthogroups to compare after identifying the most inclusive Arabidopsis gene composition to make comparisons between orthogroups in scenarios where the number of Arabidopsis genes are different between the two algorithms.,,,,,,,,,,
+newTotalOG,sum of combAvg_same and combAvg_diff,,,,,,,,,,
+oriTotal,sum of oriATgenes_same and oriATgenes_diff; note; BR sums are a bit different because some genes can be included in more than one orthogroup; the extra gene was not included in average.,,,,,,,,,,
