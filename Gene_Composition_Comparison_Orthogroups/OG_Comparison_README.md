@@ -12,9 +12,14 @@
 	
 * output
 	* [for diploid set](/Gene_Composition_Comparison_Orthogroups/diploid_output):
-		* diploid_pairwiseMetrics_231003.csv - **found in DRYAD**
+		* diploid_pairwiseMetrics_240212.csv - **found in DRYAD**
   			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
-			* to use to plot and summarize similarity indices
+			* raw similarity score metrics, but includes duplicated orthogroup comparisons 
+  		* diploid_newMetrics_noDup_240221.csv	
+   			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
+      			* no duplicate orthogroup composition metrics; to use to plot and summarize similarity indices
+		* summary_diploid_240221.csv
+        		* for tracking whether the correct number of duplicate comparisons were removed 		 	
 		* diploid_geneClusterTable_230928.csv 
 			* includes ON
 			* all orthogroups with Arabidopsis gene concatenated together
@@ -29,10 +34,15 @@
    			* individual orthogroup files, named by *Arabidopsis* gene geneOutput_230929.zip
 			* does not include ON
 		
-	* [for higher ploidy set](/Gene_Composition_Comparison_Orthogroups/higher_ploidy_output):
-		* full_pairwiseMetrics_231004.csv - **found in DRYAD**
+	* [for diploid+higher ploidy set](/Gene_Composition_Comparison_Orthogroups/higher_ploidy_output):
+		* full_pairwiseMetrics_240209.csv - **found in DRYAD**
 			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
-    			* to use to plot and summarize similarity indices
+    			* raw similarity score metrics, but includes duplicated orthogroup comparisons 
+  		* full_newMetrics_noDup_240221.csv  - **found in DRYAD**		
+			* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
+    			* no duplicate orthogroup composition metrics; to use to plot and summarize similarity indices
+		* summary_full_240221.csv
+      			* for tracking whether the correct number of duplicate comparisons were removed 
 		* full_geneClusterTable_230928.csv 
 			* includes ON
 			* all orthogroups with Arabidopsis gene concatenated together
