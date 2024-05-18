@@ -37,8 +37,8 @@
 		* mixed_speciesPairsJIvalues_toCorrect_240226.csv
  
 * script for correcting overcounting of comparisons:
-	* Correcting_Pairwise_Metrics_dipSpeciesPairs_240223.ipynb 
-	* Correcting_Pairwise_Metrics_mixSpeciesPairs_240225.ipynb
+	* Correcting_Pairwise_Metrics_dipSpeciesPairs_240223_cleaned.py 
+	* Correcting_Pairwise_Metrics_mixSpeciesPairs_240226_cleaned.py
 * input:
 	* diploid_speciesPairsJIvalues_toCorrect_240222.csv
 	* mixed_speciesPairsJIvalues_toCorrect_240226.csv
