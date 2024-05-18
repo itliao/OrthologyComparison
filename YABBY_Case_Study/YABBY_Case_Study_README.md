@@ -70,8 +70,9 @@ CIPRES: https://www.phylo.org/
   	* 230214_full.clstrd.afterMCL.edges.sif
 
 * outputs:
-	* individual sif files - to open in Cytoscape to make into networks
  	* diploid
-  	* 
+  		* [sif files and pdfs](/YABBY_Case_Study/OrthNetCytoscape/diploid) 
+  	* diploid+higher ploidy
+  		* [sif files and pdfs](/YABBY_Case_Study/OrthNetCytoscape/higher_ploidy) 
    
 
