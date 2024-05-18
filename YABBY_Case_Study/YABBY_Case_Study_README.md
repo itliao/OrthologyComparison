@@ -59,4 +59,19 @@ CIPRES: https://www.phylo.org/
 * open RAxML_bipartitions.brass file and make slight visual modifications
 * resulting trees: **sequence_id**_tree.pdf
 
+## STEP 5: Networks from OrthNet
+
+* script to get the clusters:
+	* Modify_sif_for_cytoscape_240222_cleaned.ipynb
+		
+* inputs:
+	* OrthNet_YAB.txt
+ 	* 230927_diploid.clstrd.afterMCL.edges.sif
+  	* 230214_full.clstrd.afterMCL.edges.sif
+
+* outputs:
+	* individual sif files - to open in Cytoscape to make into networks
+ 	* diploid
+  	* 
+   
 
