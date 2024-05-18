@@ -28,8 +28,8 @@
 # pairwise gene comparison between algorithms - for species pairs
 
 * script: 	
-	* CompareOrthogroupComposition_SpeciesPairs_dip_240222.py
-	* CompareOrthogroupComposition_SpeciesPairs_mix_240226.py
+	* CompareOrthogroupComposition_SpeciesPairs_dip_240222_clean.py
+	* CompareOrthogroupComposition_SpeciesPairs_mix_240226_clean.py
 	
 * output:
 	* files have some duplicate orthogroup comparison metrics, so they will need to be corrected (removed/averaged out) 
