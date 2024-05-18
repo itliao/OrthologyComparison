@@ -44,9 +44,11 @@
 	* mixed_speciesPairsJIvalues_toCorrect_240226.csv
 * output:
 	* summary_diploidPairs_240223.csv 
-	* spPairs_diploid_newMetrics_noDup_240223.csv
-	* spPairs_diploid_JIsummary_240223.csv 
+	* spPairs_diploid_JIsummary_240223.csv
+ 	* spPairs_diploid_newMetrics_noDup_240223.csv **found in DRYAD**
+		* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)
 	
   	* summary_mixedPairs_240227.csv 
-	* spPairs_mixed_newMetrics_noDup_240227.csv 
-	* spPairs_mixed_JIsummary_240227.csv  	
+	* spPairs_mixed_JIsummary_240227.csv
+   	* spPairs_mixed_newMetrics_noDup_240227.csv **found in DRYAD**
+		* [https://doi.org/10.5061/dryad.8sf7m0cw8](https://doi.org/10.5061/dryad.8sf7m0cw8)  
