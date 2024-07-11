@@ -1,5 +1,5 @@
-# OrthologyComparison
-Customizable orthology inference algorithms generate similar predicted orthogroups among Brassicaceae species
+# Orthology Comparison
+Different orthology inference algorithms generate similar predicted orthogroups among Brassicaceae species
 
 Maintainer's contact info: 
 Irene T. Liao - ireneliao@ucla.edu, liao.irene.t@gmail.com
